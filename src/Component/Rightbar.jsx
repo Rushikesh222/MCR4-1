@@ -1,4 +1,4 @@
-import { forumData } from "../../Data/Data";
+import { forumData } from "../Data/Data";
 
 export const Rightbar = () => {
   const { accountId, username, name, picUrl } = forumData;

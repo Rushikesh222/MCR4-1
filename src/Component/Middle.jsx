@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { forumData } from "../../Data/Data";
+import { forumData } from "../Data/Data";
 import { NavLink } from "react-router-dom";
 import { CartContext } from "../context/Card-context";
 import "./middle.css";

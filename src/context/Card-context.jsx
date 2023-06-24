@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { forumData } from "../../Data/Data";
+import { forumData } from "../Data/Data";
 
 export const CartContext = createContext();
 export const CardProvider = ({ children }) => {
