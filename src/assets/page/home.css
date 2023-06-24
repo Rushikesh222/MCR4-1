@@ -1,0 +1,32 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.middle-section {
+  text-align: center;
+}
+
+/* Example styling for the navigation links */
+.left-nav a,
+.right-nav a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Example styling for the middle section */
+.middle-section h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
