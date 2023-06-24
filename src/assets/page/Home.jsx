@@ -1,6 +1,6 @@
 import { Middle } from "../Component/Middle";
 import { Rightbar } from "../Component/Rightbar";
-import { Leftside } from "../Component/leftside";
+import { Leftside } from "../Component/Leftside";
 import "./home.css";
 export const Home = () => {
   return (
